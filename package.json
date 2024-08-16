@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@skyscanner/backpack-react-scripts": "11.1.1",
+    "@skyscanner/backpack-web": "^34.16.0",
     "@skyscanner/cra-template-backpack": "0.0.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -30,7 +31,10 @@
   },
   "backpack-react-scripts": {
     "babelIncludePrefixes": [
-      "@skyscanner[\\/]backpack-web[\\/\bpk-"
+      "@skyscanner[\\/]backpack-web[\\/]bpk-"
     ]
+  },
+  "devDependencies": {
+    "@types/sass-loader": "^8.0.9"
   }
 }
